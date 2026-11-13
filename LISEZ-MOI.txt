@@ -1,0 +1,14 @@
+DUO QUEST V3 — VERSION FACILE POUR GITHUB
+
+Tous les fichiers sont dans ce seul dossier.
+1) Sur votre ordinateur, décompressez le ZIP.
+2) Ouvrez le dossier « duo-quest-v3-pour-github ».
+3) Sur votre dépôt GitHub, onglet Code > Ajouter un fichier > Téléverser des fichiers.
+4) Glissez TOUS les fichiers du dossier dans la zone GitHub (pas le dossier lui-même, pas le ZIP).
+5) Si GitHub propose des fichiers existants avec le même nom, autorisez leur remplacement, puis validez Commit changes. Si cela ne fonctionne pas, supprimez les anciens fichiers d'abord, puis téléversez ceux-ci.
+6) Vérifiez que les fichiers suivants figurent directement à la racine du dépôt : index.html, app.js, style.css, sw.js, manifest.webmanifest, atlas.webp, gta-sunset.webp, duo-sunset.webp, icon-192.png, icon-512.png.
+7) Dans Actions, attendez le déploiement GitHub Pages avec coche verte. Actualisez ensuite Safari sur l’iPhone.
+
+Cette édition ne contient AUCUN sous-dossier : elle évite les erreurs d'import de « art » et « icons ».
+Elle conserve la sauvegarde de la V2 sur le même navigateur et le même domaine.
+Pensez à exporter votre progression avant une mise à jour importante.
