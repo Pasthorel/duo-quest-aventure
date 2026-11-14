@@ -1,0 +1,13 @@
+DUO QUEST V5 — Angèle & Adrien — mise à jour illustrée
+
+MISE À JOUR : remplacez tous les fichiers à la racine de votre dépôt GitHub Pages par les fichiers contenus dans ce ZIP. Ne créez pas de sous-dossier.
+
+Nouveautés V5 : 36 aventures uniques, 30 mini-missions quotidiennes supplémentaires, 12 thèmes d’album, 26 objets de refuge, 6 ambiances enregistrables et réinstallables, carnet d’exploits, cadeaux quotidiens, coffre gratuit quotidien, favoris, collection complète, Hall des trésors.
+
+Sauvegardes : cette version conserve la clé de sauvegarde V4/V3, le contenu de votre album et la progression. Exportez un fichier complet AVANT de faire la mise à jour. Les photos se trouvent dans l’IndexedDB de l’appareil et ne sont pas envoyées à GitHub. Pour changer de téléphone, exportez et importez la sauvegarde AVEC PHOTOS.
+
+Les photos restent privées : NE publiez jamais les fichiers de sauvegarde contenant vos photos sur un dépôt GitHub public.
+
+Les décors sont illustrés et personnalisés par éléments superposés ; ce n'est pas une pièce 3D libre.
+
+Après Commit changes, vérifiez la coche verte du déploiement GitHub Pages. Sur iPhone, ouvrez le site dans Safari et rechargez pour mettre à jour le cache.
