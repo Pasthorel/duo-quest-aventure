@@ -1,0 +1,30 @@
+DUO QUEST V7 — LE REFUGE EN VRAIE 3D (WebGL)
+=============================================
+
+Nouveauté essentielle : le refuge n'est PLUS une image ou un SVG. Il est construit avec une vraie scène 3D WebGL comprenant des maillages (murs, parquet, literie, rideaux, fenêtre, étagères, tables, lampes, tapis, fleurs...), une caméra en perspective, des matériaux colorés et un éclairage calculé.
+
+Sur l'iPhone :
+• Faites glisser votre doigt sur la chambre pour tourner la caméra.
+• Pincez avec deux doigts pour zoomer ; double toucher non nécessaire.
+• Touchez un meuble pour accéder à sa catégorie.
+• Utilisez les boutons Lampe et Jour/Nuit pour changer l'ambiance.
+• Activez « Déplacer », choisissez Lit / Plante / Lampe / Étagère, puis faites glisser dans la scène pour changer sa position.
+• Depuis les catégories sous la scène, achetez/équipez les objets : le style de la pièce change réellement.
+• Les positions et choix sont sauvegardés localement, comme les autres données du jeu.
+
+Le moteur 3D est présent en entier dans « refuge3d.js », sans CDN ni abonnement.
+Il utilise des géométries 3D générées directement en JavaScript et ne charge pas encore de mobilier photoréaliste GLB créé sous Blender. C'est une première véritable scène 3D stylisée et manipulable.
+
+INSTALLATION GITHUB PAGES
+------------------------
+1. Avant de mettre à jour, dans Duo Quest V6, exporter votre sauvegarde complète.
+2. Décompresser le ZIP V7.
+3. Sur GitHub, dans le dépôt duo-quest-aventure, remplacer les anciens fichiers par TOUS ceux du ZIP (au même niveau que index.html).
+4. Important : ne pas oublier le NOUVEAU fichier refuge3d.js.
+5. Valider avec Commit changes. Le lien public reste identique.
+6. Depuis Safari, recharger la page et ouvrir la rubrique Refuge. Le service worker V7 installe les nouveaux fichiers pour l'usage hors ligne.
+
+ATTENTION
+---------
+Les sauvegardes V4/V5/V6 sont conservées via le stockage local du même site. Supprimer l'app ou les données Safari peut effacer la progression : exporter la sauvegarde et la conserver dans Fichiers.
+La 3D nécessite un iPhone avec Safari prenant en charge WebGL. Les performances dépendent du modèle et de la version d'iOS. Le rendu iPhone réel n'a pas été vérifié dans cet environnement et doit être validé sur votre téléphone.
